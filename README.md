@@ -4,7 +4,7 @@
 
 **Describe your trip in one message. A crew of AI agents finds flights, hotels and writes your day-by-day itinerary.**
 
-[**🌍 Live demo**](https://multi-agent-travel-planner-m4rc.onrender.com) · [Report a bug](https://github.com/Nisha-Lohar04/Multi-Agent-Travel-Planner/issues) · [Request a feature](https://github.com/Nisha-Lohar04/Multi-Agent-Travel-Planner/issues)
+[**🌍 LIVE WORKING WEBSITE**](https://multi-agent-travel-planner-m4rc.onrender.com)
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
@@ -16,7 +16,6 @@
 
 </div>
 
-> **Note:** the live demo runs on a free Render instance. If it has been idle, the first load can take around a minute while the service wakes up.
 
 ---
 
@@ -140,7 +139,6 @@ LANGSMITH_PROJECT=multi-agent-travel-planner
 | `DEFAULT_ORIGIN_IATA` | No | Fallback departure airport code when none is given in the request |
 | `LANGSMITH_*` | No | Enable LangSmith tracing |
 
-> 🔒 Never commit `.env`. It is already listed in `.gitignore`.
 
 ### 3. Run locally
 
@@ -215,21 +213,14 @@ Make sure `.env` is listed in `.dockerignore` so secrets are never baked into th
 
 ## Roadmap
 
-- [ ] Stream agent progress to the UI in real time (SSE)
-- [ ] Connection pooling for PostgreSQL under concurrent users
-- [ ] Rate limiting and request-size limits on the API
-- [ ] Destination photos and an interactive route map
-- [ ] Currency conversion and a more detailed budget breakdown
-- [ ] Saved trips and user accounts
+- Stream agent progress to the UI in real time (SSE)
+- Connection pooling for PostgreSQL under concurrent users
+- Rate limiting and request-size limits on the API
+- Destination photos and an interactive route map
+- Currency conversion and a more detailed budget breakdown
+- Saved trips and user accounts
 
 ## Contributing
 
 Contributions are welcome. Fork the repo, create a feature branch, and open a pull request describing your change.
 
-## Author
-
-**Nisha Lohar** · [GitHub](https://github.com/Nisha-Lohar04)
-
-## License
-
-No licence has been added yet. Add a `LICENSE` file (for example MIT) before inviting external contributions.
